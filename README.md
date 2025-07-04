@@ -105,7 +105,7 @@ File PDF dokumentasi tersedia, mencakup:
 3. Screenshot tampilan semua halaman
 
 📝 Penutup
-Website ini dibuat sebagai bagian dari tes rekrutasi Divisi Cyber Security MBC Lab.
+- Website ini dibuat sebagai bagian dari tes rekrutasi Divisi Cyber Security MBC Lab.
 Saya menyadari adanya keterbatasan pada bagian backend (PHP belum di-hosting), namun struktur proyek ini sudah mendukung pengembangan lebih lanjut jika dibutuhkan.
 
 Terima kasih atas kesempatan dan semoga hasil project ini menunjukkan komitmen dan potensi saya.
