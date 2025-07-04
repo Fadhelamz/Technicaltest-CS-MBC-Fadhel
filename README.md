@@ -71,6 +71,33 @@ Frontend (GitHub Pages & Vercel) sudah otomatis menggunakan HTTPS (aman).
 Backend (PHP) saat ini hanya bisa berjalan di server lokal (XAMPP) atau hosting PHP seperti InfinityFree / 000webhost.
 Belum digunakan database atau autentikasi lanjutan.
 
+## ⚠️ Keterbatasan Backend (contact.php)
+
+Form kontak pada proyek ini menggunakan `contact.php` sebagai backend sederhana untuk menerima dan menampilkan data yang dikirim dari form HTML.
+
+Namun, file PHP tidak dapat dijalankan di GitHub Pages maupun Vercel karena kedua platform ini tidak menyediakan dukungan untuk server-side script seperti PHP. Akibatnya:
+
+- Form tetap bisa diisi oleh pengguna, **tapi tidak akan diproses** saat diklik "Send".
+- File `contact.php` hanya bisa dijalankan secara lokal (di XAMPP/Laragon) atau di hosting yang mendukung PHP seperti **InfinityFree** atau **000webhost**.
+
+### Solusi Sementara
+Untuk mencoba form kontak agar benar-benar bekerja:
+1. Jalankan proyek secara lokal menggunakan XAMPP atau Laragon.
+2. Atau, upload file `contact.php` ke hosting gratis yang support PHP.
+
+## ❗ Error: "This site can’t be reached" Saat Submit Form
+
+Saat pengguna menekan tombol **"Send"** pada form kontak, browser akan mencoba mengakses file `contact.php` menggunakan metode POST.
+
+Namun, jika proyek ini dijalankan
+maka backend (`contact.php`) **tidak dapat dijalankan**, karena:
+- GitHub Pages dan Vercel **tidak memiliki server PHP**
+- Saat browser mencoba mengakses `contact.php`, responsnya akan **404 Not Found** atau **"This site can’t be reached"**
+
+### 💡 Contoh Error:
+   This site can’t be reached
+   contact.php refused to connect.
+   
 📁 Dokumentasi Tambahan
 File PDF dokumentasi tersedia, mencakup:
 Alur kerja form
