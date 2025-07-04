@@ -35,14 +35,14 @@ Berikut adalah langkah-langkah untuk menjalankan proyek secara lokal di komputer
 ### 1. Clone Repository atau Salin Folder ke htdocs (XAMPP)
 Jika menggunakan GitHub:
 bash
-git clone https://github.com/Fadhelamz/WEBSITE-MBC.git
-cd WEBSITE-MBC
+git clone https:https://github.com/Fadhelamz/Technicaltest-CS-MBC-Fadhel.git
+cd Technicaltest-CS-MBC-Fadhel
 Atau cukup salin folder ke htdocs/ pada XAMPP Anda
 
 2. Jalankan Backend PHP
 Aktifkan Apache dari XAMPP Control Panel
 Buka browser dan akses:
-http://localhost/WEBSITE-MBC/index.html
+http://localhost//Technicaltest-CS-MBC-Fadhel/index.html
 
 3. Form Kontak
 Form kontak berada di bagian bawah halaman utama
@@ -55,11 +55,11 @@ Upload repository ke GitHub (public)
 Masuk ke Settings > Pages > pilih branch main dan folder / (root)
 
 Website otomatis akan muncul di:
-https://technicaltest-cs-mbc-fadhel.vercel.app/ (ganti)
+https://fadhelamz.github.io/Technicaltest-CS-MBC-Fadhel/
 
 🔸 Vercel (Alternatif Frontend)
 Masuk ke https://vercel.com dan login dengan GitHub
-Klik "New Project" → pilih repo WEBSITE-MBC
+Klik "New Project" → pilih repo Technicaltest-CS-MBC-Fadhel
 Deploy dan akses via domain dari Vercel
 
 🔗 Live: https://technicaltest-cs-mbc-fadhel.vercel.app/
@@ -68,13 +68,11 @@ Deploy dan akses via domain dari Vercel
 
 🔐 Konfigurasi SSL & Backend
 Frontend (GitHub Pages & Vercel) sudah otomatis menggunakan HTTPS (aman).
-
 Backend (PHP) saat ini hanya bisa berjalan di server lokal (XAMPP) atau hosting PHP seperti InfinityFree / 000webhost.
-
 Belum digunakan database atau autentikasi lanjutan.
 
 📁 Dokumentasi Tambahan
-File Word dan PDF dokumentasi tersedia, mencakup:
+File PDF dokumentasi tersedia, mencakup:
 Alur kerja form
 Diagram arsitektur
 Screenshot tampilan semua halaman
