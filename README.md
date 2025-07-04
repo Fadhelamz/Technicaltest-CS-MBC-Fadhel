@@ -5,7 +5,7 @@ Project ini terdiri dari frontend berbasis HTML dan CSS, serta backend sederhana
 Website telah dideploy secara online menggunakan GitHub Pages dan Vercel (frontend only).
 
 ## 🌐 Live Website (Frontend only)
-https://fadhelamz.github.io/WEBSITE-MBC/ (ganti)
+https://technicaltest-cs-mbc-fadhel.vercel.app/
 
 ## 🗂️ Struktur Proyek
 MBC-LAB/
@@ -30,26 +30,22 @@ MBC-LAB/
 └── README.md
 
 ## ⚙️ Instruksi Instalasi Lokal
-
 Berikut adalah langkah-langkah untuk menjalankan proyek secara lokal di komputer Anda:
 
 ### 1. Clone Repository atau Salin Folder ke htdocs (XAMPP)
 Jika menggunakan GitHub:
-```bash
+bash
 git clone https://github.com/Fadhelamz/WEBSITE-MBC.git
 cd WEBSITE-MBC
-
 Atau cukup salin folder ke htdocs/ pada XAMPP Anda
 
 2. Jalankan Backend PHP
 Aktifkan Apache dari XAMPP Control Panel
-
 Buka browser dan akses:
 http://localhost/WEBSITE-MBC/index.html
 
 3. Form Kontak
 Form kontak berada di bagian bawah halaman utama
-
 Saat dikirim, akan mengarah ke file contact.php
 
 🚀 Deployment
@@ -59,7 +55,7 @@ Upload repository ke GitHub (public)
 Masuk ke Settings > Pages > pilih branch main dan folder / (root)
 
 Website otomatis akan muncul di:
-https://fadhelamz.github.io/WEBSITE-MBC/
+https://technicaltest-cs-mbc-fadhel.vercel.app/ (ganti)
 
 🔸 Vercel (Alternatif Frontend)
 Masuk ke https://vercel.com dan login dengan GitHub
