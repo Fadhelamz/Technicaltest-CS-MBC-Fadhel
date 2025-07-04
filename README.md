@@ -9,13 +9,25 @@ https://fadhelamz.github.io/WEBSITE-MBC/ (ganti)
 
 ## 🗂️ Struktur Proyek
 MBC-LAB/
-├── index.html # Halaman utama website
-├── style.css # File styling utama
-├── contact.php # Backend sederhana untuk form kontak
-├── gambar1.png # Gambar pada halaman home
-├── Tangkuban-removebg-preview.png # Gambar biodata
-└── README.md # Dokumentasi proyek
 
+├── frontend/
+
+│   ├── index.html          # Halaman Home
+
+│   ├── css/
+
+│   │   └── style.css       # Semua styling digabung di satu file
+
+
+│   └── assets/
+
+│       └── images/         # Gambar
+
+├── backend/
+
+│   ├── contact.php 
+
+└── README.md
 
 ## ⚙️ Instruksi Instalasi Lokal
 
